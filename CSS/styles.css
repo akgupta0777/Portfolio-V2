@@ -1,0 +1,212 @@
+/*  Fonts Used
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster Two', cursive;*/
+/*
+colors Used
+#fb7813
+#00bdaa
+#481380
+#fbecec
+*/
+
+.source{
+    margin: 0;
+    background-color: #481380;
+}
+
+.work{
+    margin: 0;
+    background-color: #00bcd4;
+}
+
+.About{
+  margin: 0;
+    background-color: #fbecec;
+}
+
+body{
+  margin: 0;
+  background-color: #fb7813;
+}
+
+.Top-bar{
+  background-color: #1b262c;
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+.Name{
+  top: 0;
+  float: left;
+  position: fixed;
+  height: 60px;
+  overflow: hidden;
+}
+.Name h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  margin-top:  0;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  color: #eaffd0;
+
+}
+.Top-bar a{
+  color: #eaffd0;
+  padding: 15px 15px 0 15px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.Top-bar :hover{
+    background: #eeeeee;
+    color: black;
+  }
+
+  .overview{
+    width: 40%;
+    position : relative;
+    top: 70px;
+    height: 400px;
+    left : 50px;
+    float: left;
+  }
+
+  .overview img{
+    position: relative;
+    left: 50px;
+    padding-left: 40px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .intro{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    color: #f4f9f4;
+  }
+
+.walk{
+  position: relative;
+  left: 150px;
+  height: 400px;
+  top: 70px;
+}
+
+.qt{
+  color: #ffc93c;
+  margin-right: 500px;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  clear: right;
+  width: auto;
+}
+.Quotes{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+}
+.qpic
+{
+  height: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.qspic{
+  height: 250px;
+  margin-left: 185px;
+}
+
+.foot{
+  width: 100%;
+  height: 150px;
+  position : relative;
+  top: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top:0;
+  margin-bottom: 0;
+}
+.Contacts{
+  height: 40px;
+  padding : 0 20px 0 20px;
+}
+
+.abouttext{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 100px;
+  margin-left: 30px;
+  font-size: 30px;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 300px;
+}
+.text{
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.front-pic{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  margin-left: 600px;
+  top: 30px;
+}
+.Hobbies{
+  font-family: 'Josefin Sans', sans-serif;
+  width:100%;
+}
+.game{
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+.life{
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-right: 20px;
+}
+.cricket{
+  margin-top: 10px;
+  position: relative;
+  right: 250px;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+li{
+  padding-top: 20px;
+  color: #ffc93c;
+}
+
+.skills{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  height: 300px;
+  float: left;
+  padding-left: 50px;
+}
+.skill-img{
+  width:100px;
+  height: 100px;
+  padding-right: 20px;
+}
