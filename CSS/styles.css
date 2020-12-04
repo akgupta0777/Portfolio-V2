@@ -34,17 +34,16 @@ body{
   background-color: #1b262c;
   display: block;
   margin: 0 auto;
-  height: 60px;
   width: 100%;
   text-align: center;
-  top: 0;
+  padding: 20px 0px;
 }
 .Name{
-  top: 0;
-  float: left;
-  position: fixed;
-  height: 60px;
-  overflow: hidden;
+  background-color: #1b262c;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
 }
 .Name h1{
   font-family: 'Dancing Script', cursive;
@@ -54,11 +53,11 @@ body{
   padding-left: 10px;
   padding-bottom: 15px;
   color: #eaffd0;
-
+  margin-bottom: 0px;
 }
 .Top-bar a{
   color: #eaffd0;
-  padding: 15px 15px 0 15px;
+  margin: 10px;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
@@ -70,20 +69,17 @@ body{
   }
 
   .overview{
-    width: 40%;
-    position : relative;
-    top: 70px;
-    height: 400px;
-    left : 50px;
-    float: left;
+    
+    width: 100%;
+    margin: 40px 0px;
+
+  
   }
 
   .overview img{
-    position: relative;
-    left: 50px;
-    padding-left: 40px;
+    display: flex;
     height: 300px;
-    text-align: center;
+    margin: auto;
   }
 
   .intro{
@@ -93,37 +89,42 @@ body{
     font-size: 50px;
     color: #f4f9f4;
   }
-
+.walking{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
 .walk{
-  position: relative;
-  left: 150px;
+  
   height: 400px;
-  top: 70px;
 }
 
 .qt{
   color: #ffc93c;
-  margin-right: 500px;
-  position: relative;
-  top: 10px;
-  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
-  clear: right;
-  width: auto;
+  
+  width: 100%;
 }
 .Quotes{
   width: 100%;
-  height: 300px;
-  position: relative;
-  top: 100px;
-  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.quote{
+  display: flex;
+  flex-wrap: wrap;
 }
 .qpic
 {
   height: 250px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 250px;
+  margin: 10px 10px;
 }
 .qspic{
   height: 250px;
@@ -132,18 +133,19 @@ body{
 
 .foot{
   width: 100%;
-  height: 150px;
+  
   position : relative;
-  top: 200px;
+  top: 100px;
   text-align: center;
   font-size: 30px;
   font-family: 'Josefin Sans', sans-serif;
   margin-top:0;
   margin-bottom: 0;
+  padding: 20px 0px;
 }
 .Contacts{
   height: 40px;
-  padding : 0 20px 0 20px;
+  padding : 5px 20px;
 }
 
 .abouttext{
@@ -152,9 +154,9 @@ body{
   margin-left: 30px;
   font-size: 30px;
   display: block;
-  float: left;
+  
   width: 100%;
-  height: 300px;
+  
 }
 .text{
   margin: 0;
@@ -164,11 +166,10 @@ body{
 
 }
 .front-pic{
-  width: 500px;
-  height: 300px;
+  
   position: absolute;
   margin-left: 600px;
-  top: 30px;
+  top: 141px;
 }
 .Hobbies{
   font-family: 'Josefin Sans', sans-serif;
@@ -187,11 +188,10 @@ body{
 }
 .cricket{
   margin-top: 10px;
-  position: relative;
-  right: 250px;
+  
   width: 200px;
   height: 200px;
-  float: left;
+  
 }
 li{
   padding-top: 20px;
@@ -201,12 +201,296 @@ li{
 .skills{
   font-family: 'Josefin Sans', sans-serif;
   width: 100%;
-  height: 300px;
-  float: left;
   padding-left: 50px;
 }
 .skill-img{
   width:100px;
   height: 100px;
   padding-right: 20px;
+}
+
+.sources_prog21{
+  width:400px;
+  height:300px;
+  position:relative;
+
+}
+.sources_prog{
+  
+  
+  left:150px;
+  top:80px;
+}
+.icons-foot{
+  height: 40px;
+  display: inline-block;
+}
+.gaming{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  
+}
+.social_media{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.cricket_info{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  
+}
+.img{
+  margin-left: 10px;
+}
+.info{
+  font-size: 20px;
+}
+.prog11{
+  height: 350px;
+  width: 500px;
+}
+.app-develop{
+  display: flex;
+}
+.competetive{
+  display: flex;
+}
+.webd{
+  display: flex;
+}
+.work-about{
+  margin-top: 50px;
+}
+.kiv-mob{
+  width: 175px;
+}
+.kivy{
+  width:150px;
+}
+@media(max-width:1150px){
+  .sources_prog21{
+    top:0px;
+  }
+  .front-pic{
+    position: unset;
+    margin-left: 0px;
+    top: 0px;
+  }
+  .abouttext{
+    font-size: 25px;
+  }
+  .skill-img{
+    width:90px;
+    height: 90px;
+    padding-right: 20px;
+  }
+}
+@media(max-width:800px)
+{
+  .abouttext{
+    width: 75vw;
+    font-size: 22px;
+  }
+  .sources_prog{
+    width: 500px;
+    height: 400px;
+  }
+  .front-pic{
+    width: unset;
+    height: unset;
+  }
+  .sources_prog21{
+    left: 0px; 
+  }
+  .prog11{
+    height: 250px;
+    width: 350px;
+  }
+  .skill-img{
+    width:80px;
+    height: 80px;
+    padding-right: 20px;
+  }
+  .kiv-mob{
+    width: 150px;
+  }
+  .kivy{
+    width:140px;
+  }
+  .skills{
+    padding-left: 5px;
+  }
+}
+@media(max-width:600px)
+{
+  .app-develop{
+    flex-direction: column;
+  }
+  .competetive{
+    
+    flex-direction: column;
+  }
+  .webd{
+    flex-direction: column;
+  }
+  .work-about{
+    width: 90vw;
+  }
+  .skill-img{
+    width:70px;
+    height: 70px;
+    padding-right: 20px;
+  }
+  .kiv-mob{
+    width: 150px;
+  }
+  .kivy{
+    width:130px;
+  }
+  .skills{
+    padding-left: 5px;
+  }
+}
+@media(max-width:550px)
+{
+  .kiv-mob{
+    width: 150px;
+  }
+  .sources_prog{
+    width: 400px;
+    height: 300px;
+  }
+  .work-about{
+    width: 90vw;
+  }
+  .prog11{
+    height: 300px;
+    width: 400px;
+  }
+  .gaming{
+    flex-direction: column;
+  }
+  .social_media{
+    flex-direction: column-reverse;
+  }
+  .cricket_info{
+    flex-direction: column;
+  }
+  .skill-img{
+    width:60px;
+    height: 60px;
+    padding-right: 10px;
+  }
+  .skills{
+    padding-left: 5px;
+  }
+  .kivy{
+    width:120px;
+  }
+}
+@media(max-width:400px)
+{
+  .skill-img{
+    width:60px;
+    height: 60px;
+    padding-right: 10px;
+  }
+  .kiv-mob{
+    width: 125px;
+  }
+  .walk{
+    width: 300px;
+    height: 300px;
+  }
+  .intro{
+    font-size: 35px;
+  }
+  .qt{
+    font-size: 35px;
+  }
+  .skills{
+    padding-left: 5px;
+  }
+  .topbar{
+    background-color: #1b262c;
+    display: block;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  
+  .overview img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
+  .abouttext{
+    width: 75vw;
+    font-size: 22px;
+  }
+  .front-pic{
+    width: unset;
+    height: unset;
+  }
+  .sources_prog21{
+    left: 0px; 
+    width: 300px;
+    height: 250px;
+  }
+  .sources_prog{
+    width: 320px;
+    height: 250px;
+  }
+  .prog11{
+    height: 250px;
+    width: 350px;
+  }
+  .kivy{
+    width:110px;
+  }
+
+  .work-about{
+    width: 90vw;
+  }
+}
+@media(max-width:300px)
+{
+  .skills{
+    padding-left: 5px;
+  }
+  .kivy{
+    width:100px;
+  }
+  .work-about{
+    width: 90vw;
+    font-size: 20px;
+  }
+  .sources_prog{
+    width: 250px;
+    height: 200px;
+  }
+  .abouttext{
+    width: 75vw;
+    font-size: 22px;
+  }
+  .front-pic{
+    width: unset;
+    height: unset;
+  }
+  .sources_prog21{
+    left: 0px; 
+    width: 250px;
+    height: 200px;
+  }
+  .work-about{
+    width: 85vw;
+    font-size: 18px;
+  }
+  .prog11{
+    height: 240px;
+    width: 300px;
+  }
 }
