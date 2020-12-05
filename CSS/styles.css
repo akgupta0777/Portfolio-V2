@@ -69,11 +69,11 @@ body{
   }
 
   .overview{
-    
+
     width: 100%;
     margin: 40px 0px;
 
-  
+
   }
 
   .overview img{
@@ -96,7 +96,7 @@ body{
     justify-content: center;
 }
 .walk{
-  
+
   height: 400px;
 }
 
@@ -104,12 +104,12 @@ body{
   color: #ffc93c;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
-  
+
   width: 100%;
 }
 .Quotes{
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -133,7 +133,7 @@ body{
 
 .foot{
   width: 100%;
-  
+
   position : relative;
   top: 100px;
   text-align: center;
@@ -154,9 +154,9 @@ body{
   margin-left: 30px;
   font-size: 30px;
   display: block;
-  
+
   width: 100%;
-  
+
 }
 .text{
   margin: 0;
@@ -166,9 +166,10 @@ body{
 
 }
 .front-pic{
-  
+
   position: absolute;
-  margin-left: 600px;
+  margin-left: 750px;
+  margin-top: 100px;
   top: 141px;
 }
 .Hobbies{
@@ -188,10 +189,10 @@ body{
 }
 .cricket{
   margin-top: 10px;
-  
+
   width: 200px;
   height: 200px;
-  
+
 }
 li{
   padding-top: 20px;
@@ -216,8 +217,8 @@ li{
 
 }
 .sources_prog{
-  
-  
+
+
   left:150px;
   top:80px;
 }
@@ -229,7 +230,7 @@ li{
   display: flex;
   align-items: center;
   padding: 40px;
-  
+
 }
 .social_media{
   display: flex;
@@ -240,7 +241,7 @@ li{
   display: flex;
   align-items: center;
   padding: 40px;
-  
+
 }
 .img{
   margin-left: 10px;
@@ -303,7 +304,7 @@ li{
     height: unset;
   }
   .sources_prog21{
-    left: 0px; 
+    left: 0px;
   }
   .prog11{
     height: 250px;
@@ -330,7 +331,7 @@ li{
     flex-direction: column;
   }
   .competetive{
-    
+
     flex-direction: column;
   }
   .webd{
@@ -420,7 +421,7 @@ li{
     width: 100%;
     padding: 20px 0px;
   }
-  
+
   .overview img{
     display: flex;
     height: 200px;
@@ -436,7 +437,7 @@ li{
     height: unset;
   }
   .sources_prog21{
-    left: 0px; 
+    left: 0px;
     width: 300px;
     height: 250px;
   }
@@ -481,7 +482,7 @@ li{
     height: unset;
   }
   .sources_prog21{
-    left: 0px; 
+    left: 0px;
     width: 250px;
     height: 200px;
   }
