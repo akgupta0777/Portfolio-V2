@@ -33,7 +33,7 @@ body{
 .Top-bar{
   background-color: #1b262c;
   display: block;
-  margin: 0 auto;
+  margin: 0 0;
   width: 100%;
   text-align: center;
   padding: 20px 0px;
