@@ -1,4 +1,5 @@
 const date = new Date();
 const year = date.getFullYear();
 
-$('#copyright').text("© " + year +" Abhay Gupta");
+const copyright = document.getElementById("copyright");
+copyright.textContent = "© " + year +" Abhay Gupta";
